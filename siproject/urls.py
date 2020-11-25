@@ -23,5 +23,9 @@ urlpatterns = [
     path('', include('hello_world.urls')),
     path('TankCleaning', include('tankcleaning.urls')),
     path('About', include('about.urls')),
+    path('Support', include('support.urls')),
+    path('Process', include('process.urls')),
     #     # path('', include('projects.urls')),
 ]
+
+

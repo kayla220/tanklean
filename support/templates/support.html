@@ -42,7 +42,6 @@
       .page-footer{
         background-color: #fed136;
       }
-
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -77,8 +76,7 @@
 <!--      </form>-->
 <!--    </div>-->
 <!--  </nav>-->
-
-<!-- Navigation -->
+        <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
 
     <div class="container">
@@ -101,6 +99,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="/About">회사소개
+<!--              <span class="sr-only">(current)</span>-->
             </a>
           </li>
           <li class="nav-item">
@@ -117,26 +116,118 @@
     </div>
   </nav>
 </header>
-<!-- Navigation -->
+
 
 <main role="main">
     <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron bg-white">
     <div class="container">
-      <h1 class="display-3">BULKHAUL</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <h1 class="display-3">We're here to help,</h1>
+      <h1 class="display-3">Let's talk</h1>
+<!--      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>-->
     </div>
   </div>
 
-  <div class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1081');">
-    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-    <div style="height: 200px;"></div>
-  </div>
+<!--  <div class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1081');">-->
+<!--    &lt;!&ndash; Put anything you want here! There is just a spacer below for demo purposes! &ndash;&gt;-->
+<!--    <div style="height: 200px;"></div>-->
+<!--  </div>-->
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
-  <div class="jumbotron bg-white">
+
+
+  <div class="container contact-form">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <form method="post">
+               <h3>Send us e-mail directly, </h3>
+               <h3>we will get in touch as soon as possible!</h3>
+               <br>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" id="name" placeholder="Your Name *" required="required" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" id="email" placeholder="Your Email *" required="required" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" id="phone" placeholder="Your Phone Number *" required="required" value="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                      </div>
+                    </div>
+
+                </div>
+            </form>
   </div>
+
+  <br>
+
+<div class="container">
+  <h3>Seoul </h3>
+    <div class="row">
+        <div class="col-md-8"></div>
+    </div>
+    <div class="col-md-4">
+        <form>
+        <legend><span class="glyphicon glyphicon-globe"></span> </legend>
+        <address>
+            <strong>Address</strong><br>
+            Seoul headquarter<br>
+            101-310, 38, Uisadang-daero, Yeongdeungpo-gu, Seoul, Republic of Korea<br>
+            <br>
+            <strong>Tel.</strong><br>
+            (02) 6238 3576
+        </address>
+          <br>
+        <address>
+            <strong>Email</strong><br>
+            <a href="mailto:#">hslogichem@gmail.com</a>
+        </address>
+        </form>
+    </div>
+</div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+<div class="container">
+  <h3>Busan </h3>
+    <div class="row">
+        <div class="col-md-8"></div>
+    </div>
+    <div class="col-md-4">
+        <form>
+        <legend><span class="glyphicon glyphicon-globe"></span> </legend>
+        <address>
+            <strong>Address</strong><br>
+            Busan branch<br>
+            225,Jebang-ro,Mulgeum-eup,Yangsan-si, Gyeongsangnam-do, Republic Of Korea<br>
+            <br>
+            <strong>Tel.</strong><br>
+            (02) 6238 3576
+        </address>
+          <br>
+        <address>
+            <strong>Email</strong><br>
+            <a href="mailto:#">hslogichem@gmail.com</a>
+        </address>
+        </form>
+    </div>
+</div>
+
 
 <!--<div class="container">-->
 <!--&lt;!&ndash; Example row of columns &ndash;&gt;-->
@@ -185,7 +276,7 @@
 <!--    </div>-->
 <!--</div>-->
 
-<div class="jumbotron">
+<div class="jumbotron bg-white">
 </div>
 
 
@@ -236,8 +327,6 @@
 <!--        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 <!--      </div>&lt;!&ndash; /.col-lg-4 &ndash;&gt;-->
 <!--    </div>&lt;!&ndash; /.row &ndash;&gt;-->
-
-
 
 
 <!--   FOOTER-->
